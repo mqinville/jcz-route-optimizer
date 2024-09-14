@@ -5,7 +5,6 @@ def load_properties_csv(file_path) :
 
     property_array = []
    
-
     with open(file_path, 'r') as file: # Open the designated property csv file in read mode - Auto closes at end of block
         properties_csv = csv.reader(file) # Intitalize DictReader object, each row from csv is turned into a dictionary       
     
